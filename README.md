@@ -19,6 +19,9 @@ It works well in all os with a terminal that supports styling, colors and other 
 Since 1.1.4 mouse SGR and X11 protocols are supported. It works well on most linux terminals, but it doesn't work on Windows 10 and 11. You can use it on Windows 10 and 11 with [Windows Terminal](https://www.microsoft.com/it-it/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) or [Cmder](https://cmder.net/) and using WSL (Windows Subsystem for Linux) with Ubuntu LTS or others.
 In this way you can use mouse also on Windows 10 and 11.
 
+#### OSX Users
+In OSX, you can use a terminal that supports mouse reporting to enable mouse features. The default OSX terminal has this enabled by default, which you can check under `View -> Allow Mouse Reporting`. iTerm2 also supports this feature, which you can enable under `Settings -> Profile -> Terminal -> Enable Mouse Reporting`.
+
 #### Windows users
 In windows you can use it in both 10, and 11 but don't use the old Powershell (💩), make you a favor and use [Windows Terminal](https://github.com/microsoft/terminal) with Powershell Core (the last official)
 That is currently installed by default in Windows 11.
